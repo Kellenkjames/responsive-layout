@@ -21,6 +21,7 @@ html {
 body {
     box-sizing: border-box;
     color: #000; 
+    background-color: #f9f9f9;
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.5;
@@ -42,4 +43,39 @@ a {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+/* --------------------------
+  Main Styles (Mobile First)
+--------------------------- */
+
+.main-header, 
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  padding-top: 2rem;
+}
+
+.name {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 2rem;
+}
+
+.nav a {
+  display: block;
+  background-color: rgb(255,255,255);
+  color: rgb(64,64,64);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: .8rem 0;
+  margin-bottom: 1rem;
 }
