@@ -129,7 +129,7 @@ img.profile {
 }
 
 .portfolio li:not(:last-child) {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .portfolio img {
