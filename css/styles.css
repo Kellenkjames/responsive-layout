@@ -40,6 +40,11 @@ a {
   font-weight: 400;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -78,4 +83,14 @@ a {
   text-align: center;
   padding: .8rem 0;
   margin-bottom: 1rem;
+}
+
+img.profile {
+  max-width: 80%;
+  margin: 2rem auto;
+}
+
+.intro p {
+  font-size: 1.7rem;
+  text-align: center;
 }
