@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <title>Mobile-First Responsive Layout</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
+	<title>Mobile-First Responsive Layout</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="main-header">
-            <h1 class="name">Kellen James</h1>
-            <ul class="nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </header>
-        <main>
+	<div class="container">
+		<header class="main-header">
+			<h1 class="name">Kellen James</h1>
+			<ul class="nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</header>
         <figure>
-            <img class="profile" src="images/responsive-layout-profile.png" alt="Profile Image" />
+            <img alt="Profile Image" class="profile" src="images/responsive-layout-profile.png">
         </figure>
         <div class="intro">
-            <p>Hi! I'm a Front-End Developer who loves HTML, CSS and JavaScript. I recently finsihed a degree in 
-                Front-End Web Development at Treehouse and am excited to put all my skills to use!   
-            </p>
+            <p>Hello! I'm a Front-End Developer who loves HTML, CSS and JavaScript. I recently finished a degree in Front-End Web Development at Treehouse and look forward to putting all my skills to use!</p>
         </div>
-    </main>
     </div>
+    <main>
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <ul class="projects">
+                <li>
+                    <figure>
+                        <img src="images/portfolio-1.png" class="project" alt="Marketing Page" />
+                    </figure>
+                    <h4>Marketing Page</h4>
+                    <p>This project shows the front page of a marketing website meant for a specific business I'm interested in. </p>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>

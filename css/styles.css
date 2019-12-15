@@ -2,7 +2,7 @@
   Base Styles
 --------------------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gelasio:400,500,600,700&display=swap');
 
 *,
@@ -45,7 +45,22 @@ img {
   width: 100%;
 }
 
-.container {
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+.container,
+.projects {
   width: 90%;
   margin: 0 auto;
 }
@@ -75,7 +90,7 @@ img {
 
 .nav a {
   display: block;
-  background-color: rgb(255,255,255);
+  background-color: #fff;
   color: rgb(64,64,64);
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -87,10 +102,48 @@ img {
 
 img.profile {
   max-width: 80%;
-  margin: 2rem auto;
+  margin: 2.5rem auto;
 }
 
 .intro p {
-  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* --------------------------
+  Portfolio Section Styles (Mobile First)
+--------------------------- */
+
+.portfolio {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.portfolio li {
   text-align: center;
 }
+
+.portfolio li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.portfolio img {
+  max-width: 95%;
+  margin: 2.5rem auto;
+}
+
+.portfolio h4 {
+  margin-bottom: 1.2rem;
+}
+
+.portfolio p {
+  font-weight: 300;
+  font-size: 1.6rem;
+
+}
+
