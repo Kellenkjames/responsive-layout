@@ -1,0 +1,45 @@
+/* --------------------------
+  Base Styles
+--------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gelasio:400,500,600,700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+  /* This defines what 1rem is | 1 rem = 10px; 10px/16px = 62.5% */
+    font-size: 62.5%; 
+}
+
+body {
+    box-sizing: border-box;
+    color: #000; 
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5;
+}
+
+ul, 
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: #656565;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
