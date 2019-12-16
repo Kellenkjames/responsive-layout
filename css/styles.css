@@ -336,12 +336,11 @@ img.profile {
     margin: 0;
   }
 
-  .nav li a {
+  a {
     transition: all .3s ease-in-out;
-    position: relative;
   }
   
-  .nav li a:hover {
+  a:hover {
     color: goldenrod;
   }
 
