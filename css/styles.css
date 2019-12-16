@@ -62,6 +62,7 @@ p {
 
 .container,
 .projects,
+.skills,
 .main-footer {
   width: 90%;
   margin: 0 auto;
@@ -153,6 +154,26 @@ img.profile {
   font-weight: 300;
   font-size: 1.6rem;
 
+}
+
+/* --------------------------
+  Skills Section Styles (Mobile First)
+--------------------------- */
+
+.skills {
+  padding: 4rem 0;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.skills h4, 
+.skills li {
+  font-family: 'Gelasio', serif;
+}
+
+.skills h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 /* --------------------------
