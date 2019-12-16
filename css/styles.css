@@ -109,6 +109,7 @@ p {
 img.profile {
   max-width: 80%;
   margin: 2.5rem auto;
+  box-shadow: 4px 6px 10px -4px #888;
 }
 
 .intro p {
@@ -140,7 +141,8 @@ img.profile {
 
 .portfolio img {
   max-width: 95%;
-  margin: 2.5rem auto;
+  margin: 2.5rem auto; 
+  box-shadow: 2px 5px 10px 2px #888;
 }
 
 .portfolio h4 {
