@@ -300,11 +300,19 @@ img.profile {
   }
 
   .inner-container {
-    width: 106%;
+    width: 108%;
   }
   
   .inner-container .intro {
     min-height: 23rem;
+  }
+
+  .inner-container .intro p {
+    max-width: 85%;
+  }
+
+  img.profile {
+    max-width: 70%;
   }
 
   /* Portfolio Styles */
