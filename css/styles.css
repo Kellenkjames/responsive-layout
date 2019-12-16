@@ -60,7 +60,8 @@ p {
 }
 
 .container,
-.projects {
+.projects,
+.main-footer {
   width: 90%;
   margin: 0 auto;
 }
@@ -145,5 +146,57 @@ img.profile {
   font-weight: 300;
   font-size: 1.6rem;
 
+}
+
+/* --------------------------
+  Footer Styles (Mobile First)
+--------------------------- */
+
+.main-footer {
+  padding: 4rem 0 2rem;
+  text-align: center;
+}
+
+.main-footer .wrapper {
+  padding-bottom: 4em;
+  border-bottom: 1px solid lightgray;
+}
+
+.main-footer h4 {
+  margin-bottom: 2rem;
+}
+
+.main-footer p.description {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.main-footer .phone,
+.main-footer .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-footer .phone p,
+.main-footer .email p {
+  font-weight: 300;
+  padding-right: 2rem;
+}
+
+.main-footer a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main-footer .inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.main-footer .inner-wrapper h2 {
+  text-transform: none;
 }
 
