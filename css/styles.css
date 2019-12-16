@@ -300,6 +300,28 @@ img.profile {
     margin: 0;
   }
 
+  .nav li a {
+    transition: all .3s ease-in-out;
+    position: relative;
+  }
+  
+  .nav li a:hover {
+    color: goldenrod;
+  }
+
+  .nav li a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: width .5s ease;
+  }
+
+  .nav li a:hover::after {
+    width: 100%;
+  }
+
   .inner-container {
     width: calc(100% + 10.5rem);
   }
